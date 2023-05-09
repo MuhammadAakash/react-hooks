@@ -17,7 +17,7 @@ const StateHook = () => {
   };
   return (
     <>
-      <h1>State Hook</h1>
+      <h1>useState Hook</h1>
       <div>{counter}</div>
       <div>
         <button onClick={increment}>Increment</button>
