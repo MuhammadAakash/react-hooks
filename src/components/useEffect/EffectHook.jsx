@@ -11,7 +11,6 @@ const EffectHook = () => {
   };
 
   useEffect(() => {
-    console.log("Coming in the useEffect Hook");
     axios.get("https://jsonplaceholder.typicode.com/users").then((res) => {
       setUsersData(res.data);
     });
