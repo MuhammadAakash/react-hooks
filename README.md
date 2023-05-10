@@ -17,3 +17,7 @@ There are a complete separate components for each Hook in the src/components Fol
 **4. useRef**
 
 ![useRed Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useRef-image-explanation.png)
+
+**5. useLayoutEffect**
+
+![useLayoutEffect Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useLayoutEffect-image-explanation.png)
