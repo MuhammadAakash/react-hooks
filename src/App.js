@@ -5,6 +5,7 @@ import StateHook from "./components/useState/StateHook";
 import RefHook from "./components/useRef/RefHook";
 import LayoutEffect from "./components/useLayoutEffect/LayoutEffect";
 import ImperativeHandle from "./components/useImperativeHandle/ImperativeHandle";
+import ContextHook from "./components/useContext/ContextHook";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <LayoutEffect />
 
       <ImperativeHandle />
+
+      <ContextHook />
     </div>
   );
 }
