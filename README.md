@@ -21,3 +21,7 @@ There are a complete separate components for each Hook in the src/components Fol
 **5. useLayoutEffect**
 
 ![useLayoutEffect Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useLayoutEffect-image-explanation.png)
+
+**6. useImperativeHandler**
+
+![useImperativeHandle Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useImperativeHandle-image-explanation.png)
