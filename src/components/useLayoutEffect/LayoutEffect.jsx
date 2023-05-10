@@ -1,7 +1,7 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const LayoutEffect = () => {
-  const [showHook, setShowHook] = useState(true);
+  const [showHook, setShowHook] = useState(false);
   const inputEl = useRef(null);
 
   const showComponent = () => {
@@ -10,9 +10,7 @@ const LayoutEffect = () => {
 
   useLayoutEffect(() => {
     if (showHook) {
-      // console.log(inputEl.current.value);
-      inputEl.current.value =
-        "This time Hello again to the World! from useLayoutEffect";
+      console.log(inputEl.current.value);
     }
   });
 
