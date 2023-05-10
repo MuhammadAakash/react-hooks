@@ -9,3 +9,7 @@ There are a complete separate components for each Hook in the src/components Fol
 **2. useReducer**
 
  ![useReducer Hook Explanation](https://github.com/MuhammadAakash/react-hooks/assets/64223049/e9ae2bcb-76de-4081-9090-2b89d6d5851e)
+
+**3. useEffect**
+
+![useEffect Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useEffect-image-Explanation.png)
