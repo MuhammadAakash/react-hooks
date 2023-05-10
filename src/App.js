@@ -1,4 +1,5 @@
 import "./App.css";
+import EffectHook from "./components/useEffect/EffectHook";
 import ReducerHook from "./components/useReducer/ReducerHook";
 import StateHook from "./components/useState/StateHook";
 
@@ -8,6 +9,8 @@ function App() {
       <StateHook />
 
       <ReducerHook />
+
+      <EffectHook />
     </div>
   );
 }
