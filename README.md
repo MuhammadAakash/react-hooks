@@ -25,3 +25,6 @@ There are a complete separate components for each Hook in the src/components Fol
 **6. useImperativeHandler**
 
 ![useImperativeHandle Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useImperativeHandle-image-explanation.png)
+
+**7. useContext**
+![useContext Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useContext-image-explanation.png)
