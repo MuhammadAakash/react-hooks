@@ -24,7 +24,7 @@ const LayoutEffect = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useRef Hook
+          Show useLayout Hook
         </button>
       </div>
 

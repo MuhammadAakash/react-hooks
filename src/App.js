@@ -6,6 +6,7 @@ import RefHook from "./components/useRef/RefHook";
 import LayoutEffect from "./components/useLayoutEffect/LayoutEffect";
 import ImperativeHandle from "./components/useImperativeHandle/ImperativeHandle";
 import ContextHook from "./components/useContext/ContextHook";
+import MemoHook from "./components/useMemo/MemoHook";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <ImperativeHandle />
 
       <ContextHook />
+
+      <MemoHook />
     </div>
   );
 }
