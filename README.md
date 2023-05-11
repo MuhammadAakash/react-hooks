@@ -33,3 +33,7 @@ There are a complete separate components for each Hook in the src/components Fol
 **8. useMemo**
 
 ![useMemo Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useMemo-image-explanation.png)
+
+**9. useCallback**
+
+![useCallback Hook Explanation](https://github.com/MuhammadAakash/react-hooks/blob/main/src/assets/useCallback-image-explanation.png)
