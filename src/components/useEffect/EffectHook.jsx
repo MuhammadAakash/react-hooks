@@ -19,7 +19,7 @@ const EffectHook = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useEffect Hook
+          {showHook ? "Hide" : "Show"} useEffect Hook
         </button>
       </div>
 

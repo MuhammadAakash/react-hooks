@@ -19,7 +19,7 @@ const RefHook = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useRef Hook
+          {showHook ? "Hide" : "Show"} useRef Hook
         </button>
       </div>
 

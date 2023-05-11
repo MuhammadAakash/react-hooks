@@ -34,7 +34,7 @@ const MemoHook = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useMemo Hook
+          {showHook ? "Hide" : "Show"} useMemo Hook
         </button>
       </div>
 

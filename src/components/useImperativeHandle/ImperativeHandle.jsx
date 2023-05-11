@@ -15,7 +15,7 @@ const ImperativeHandle = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useImperativeHandle Hook
+          {showHook ? "Hide" : "Show"} useImperativeHandle Hook
         </button>
       </div>
 

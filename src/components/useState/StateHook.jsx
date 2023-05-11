@@ -26,7 +26,7 @@ const StateHook = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useState Hook
+          {showHook ? "Hide" : "Show"} useState Hook
         </button>
       </div>
       {showHook && (
