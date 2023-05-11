@@ -42,7 +42,7 @@ const ReducerHook = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useReducer Hook
+          {state.showHook ? "Hide" : "Show"} useReducer Hook
         </button>
       </div>
       {state.showHook && (

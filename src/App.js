@@ -7,6 +7,7 @@ import LayoutEffect from "./components/useLayoutEffect/LayoutEffect";
 import ImperativeHandle from "./components/useImperativeHandle/ImperativeHandle";
 import ContextHook from "./components/useContext/ContextHook";
 import MemoHook from "./components/useMemo/MemoHook";
+import CallbackHook from "./components/useCallback/CallbackHook";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <ContextHook />
 
       <MemoHook />
+
+      <CallbackHook />
     </div>
   );
 }

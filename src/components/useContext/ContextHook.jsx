@@ -15,7 +15,7 @@ const ContextHook = () => {
     <>
       <div>
         <button className="button" onClick={showComponent}>
-          Show useContext Hook
+          {showHook ? "Hide" : "Show"} useContext Hook
         </button>
       </div>
 
